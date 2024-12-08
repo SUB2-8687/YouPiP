@@ -1,32 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>DISABLE_PIP_MINI_PLAYER</key>
-	<string>소형 플레이어 PiP 비활성화</string>
-	<key>DISABLE_PIP_MINI_PLAYER_DESC</key>
-	<string>소형 플레이어에서 동영상을 재생하고 있는동안 PiP를 비활성화합니다.</string>
-	<key>ENABLED</key>
-	<string>활성화</string>
-	<key>ENABLED_DESC</key>
-	<string>앱을 다시 시작해야 합니다.</string>
-	<key>LEGACY_PIP</key>
-	<string>레거시 PiP</string>
-	<key>LEGACY_PIP_DESC</key>
-	<string>PiP에 AVPlayerLayer를 사용합니다. 이 기능은 속도 향상 버그를 수정하지만 모든 동영상에서 UHD 옵션(2K/4K)을 제거합니다. 앱을 다시 시작해야 합니다.</string>
-	<key>NON_BACKGROUNDABLE_PIP</key>
-	<string>강제 백그라운드 PiP</string>
-	<key>NON_BACKGROUNDABLE_PIP_DESC</key>
-	<string>백그라운드가 되지 않는 동영상에 PiP를 활성화합니다.</string>
-	<key>UNSUPPORTED_YT_VERSION</key>
-	<string>YouTube 버전 %@은(는) 테스트되지 않았으며 YouPiP에서 지원되지 않을 수 있습니다. YouTube를 버전 %@ 이상으로 업그레이드하세요.</string>
-	<key>USE_PIP_BUTTON</key>
-	<string>PiP 버튼 사용</string>
-	<key>USE_PIP_BUTTON_DESC</key>
-	<string>앱을 닫는 대신 PiP를 활성화하기 위해 동영상 제어 오버레이 위에 PiP 버튼을 추가합니다.</string>
-	<key>USE_TAB_BAR_PIP_BUTTON</key>
-	<string>동영상 탭 바 PiP 버튼 사용</string>
-	<key>USE_TAB_BAR_PIP_BUTTON_DESC</key>
-	<string>앱을 닫는 대신 PiP를 활성화하기 위해 동영상 탭 표시줄에 PiP 버튼을 추가합니다. 앱을 다시 시작해야 합니다.</string>
-</dict>
-</plist>
+// Settings
+
+"SETTINGS_TITLE" = "YouPiP";
+
+"ENABLED" = "활성화";
+"ENABLED_DESC" = "앱을 다시 시작해야 합니다.";
+
+"USE_PIP_BUTTON" = "PiP 버튼 사용";
+"USE_PIP_BUTTON_DESC" = "앱을 닫는 대신 PiP를 활성화하기 위해 동영상 제어 오버레이 위에 PiP 버튼을 추가합니다.";
+
+"USE_TAB_BAR_PIP_BUTTON" = "동영상 탭 바 PiP 버튼 사용";
+"USE_TAB_BAR_PIP_BUTTON_DESC" = "앱을 닫는 대신 PiP를 활성화하기 위해 동영상 탭 표시줄에 PiP 버튼을 추가합니다. 앱을 다시 시작해야 합니다.";
+
+"DISABLE_PIP_MINI_PLAYER" = "소형 플레이어 PiP 비활성화";
+"DISABLE_PIP_MINI_PLAYER_DESC" = "소형 플레이어에서 동영상을 재생하고 있는동안 PiP를 비활성화합니다.";
+
+"LEGACY_PIP" = "레거시 PiP";
+"LEGACY_PIP_DESC" = "PiP에 AVPlayerLayer를 사용합니다. 이 기능은 속도 향상 버그를 수정하지만 모든 동영상에서 UHD 옵션(2K/4K)을 제거합니다. 앱을 다시 시작해야 합니다.";
+
+"NON_BACKGROUNDABLE_PIP" = "강제 백그라운드 PiP";
+"NON_BACKGROUNDABLE_PIP_DESC" = "백그라운드가 되지 않는 동영상에 PiP를 활성화합니다.";
+
+// Compatibility warning
+"UNSUPPORTED_YT_VERSION" = "YouTube 버전 %@는 테스트되지 않았으며 YouPiP에서 지원하지 않을 수 있습니다. YouTube를 버전 %@ 이상으로 업그레이드하세요.";
